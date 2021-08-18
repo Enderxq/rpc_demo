@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+//package myProto;
+option go_package = ".;myProto";
+
+service HelloServer{
+	rpc SayHello (HelloReq) returns (HelloResponse){}
+	rpc SayName (NameReq) returns (NameResponse){}
+}
+
+message HelloReq {
+	string name = 1;
+}
+
+message HelloResponse {
+	string msg = 1;
+}
+
+message NameReq {
+	string name = 1;
+}
+
+message NameResponse {
+	string msg = 1;
+}
