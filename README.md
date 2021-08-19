@@ -10,8 +10,10 @@ gRpc的使用流程
 安装:
 
 1.安装gRpc
+
 使用go命令下载：
 go get -u google.golang.org/grpc
+
 使用git下载：
 git clone https://github.com/grpc/grpc-go.git $GOPATH/src/google.golang.org/grpc
 git clone https://github.com/golang/net.git $GOPATH/src/golang.org/x/net
