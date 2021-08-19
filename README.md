@@ -10,11 +10,12 @@
 ##安装:
 
 ###1.安装gRpc
+
 使用go命令下载：
 ```
 go get -u google.golang.org/grpc
+
 ```
-    
 使用git下载：
 ```
 git clone https://github.com/grpc/grpc-go.git $GOPATH/src/google.golang.org/grpc
@@ -26,7 +27,10 @@ go install google.golang.org/grpc
 ```
 ###2.安装protoc-gen-go
 protoc依赖该工具生成代码
-    go get -u github.com/golang/protobuf/protoc-gen-go
+``` 
+go get -u github.com/golang/protobuf/protoc-gen-go
+```
+    
 
 ##gRPC案例
 
